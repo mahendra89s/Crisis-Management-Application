@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "calmitybot-uhln",
+  "private_key_id": "c4655f51fd89e97b7575bd46b4addfd0907b9398",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3ypMTNhLDBIM0\nExsq4kxUYaSKvbwIxyetlz2HDlotmCARHKzn9eO90kLe5E2YmMVJBqN5fvqlCt0t\npjxdr+4EPRUL7Sv/19jII716CnUJ36cO70lZL6c6orQzUU7ICF8ZFH2ApBqsTNK7\nd/2l+9Zp6C9r3gY6bculjZa29WWNSBDkzdHfMaXk2MGde7IrLF3C2xArfZ1+pLnX\nuBSnRj/nE+KxYWXmMCVi+DE1JPuoEjFNLzi7CkRqKO8I2YsbUQ7lTXGObUnRT9l6\n5OdDrbcke2LEnV0LRhTbQku+NtHmiFnYby4HpLMzZGM8sQ8Ze8oAldw3YmDZ6RCI\ncVwZSwPhAgMBAAECggEABoeBlJnj7j4zjA7OtQYPmKLUZeJqMvSiTfo0wx7JKNwB\n7aGzadU0N0roOcNqF0z8G0VLWvZeIK1jYKsKc3ibz9Y8sG0HVmI8bxXH9jU3Zbem\nl3L8S9kTy5M6rCUME7KqcDloYQDTesIK7YKMhhBNlHsdbitX1M0QQkwmqc7LggqZ\nNtRCQh5beJJCE/G3mdQD/rUEtdScPPiZVY8nrbEt7taB/ure8hmbWxR92X8Au8Vf\nlJU+volk3jUdie7wVN0cxrEpO/fyxxojwoORPNyEsG4WgEszBtp/ywFLq6axZ8hE\nrA7HSOJiMxAZ2SfZJFHa/EXa55LkDQ4H1yCtFSqnjQKBgQDdFVszlIxN260/sttk\n6Xr4DUP8TsJrvyOLiBraTTiBgPw/94PmpHFmfTUI1ksb/AwfauPqV1SVDoXda2G1\nOrHz2l6afd4iOSXdlVmyuPkdoNWkhkniATREU7pwv8FgHew/g+iHN3Tk6GRfru1n\nAGY8D4HqweHydYnsg7GG1N/pHQKBgQDU0XUVKkd9CwqdaQNdf08sSfirspVq6kRe\nz4vwZatgVNYJ+xwoiK/hGZ9SC1t76ep837Oy6UnUrRZNAyZ+19veAykfrMiUFfXT\neMNySeodN5V6QAIicC+0tevk5UtaeeQntW2ggB8xj0adL59Iv+JrfAyxuJiUcSwb\nLWco4H/OlQKBgQCA+Oxzcr1GzliLSHPksrAh9NssXWXeJWs/Au9nWpUUN4Lwbhxs\neJIPEAvYU+sNMESCL4E2PCwDqK0/Nl2Rs+QMNd/qkHL91Aja8z2YnX/2YNVBXXXM\nepdbJN0m2TaeM9aWVwVXnGp8/3VOvGWSKRF7CDDqGqENKLSFXW47EgRtoQKBgQC3\npqU+BYU5kAyx+AxSY+mD07XHHU45vD4R/1LIukPg1nT6mfsbs5DrVLwbBfgFf7+9\n0SH2k8EFyfRDsyNGNKrk9J9JWUaiHC1ON5maB9UDL5NLsu7knyFb9d3CYmjbg/Jy\nnesjpUzF7NlIDe+LzSLsFFm0CBOLjfo83bp3GPzR3QKBgFncomIKLlqf4PF4kcUM\nbKEuJhyq75uHdRViaJij+l/qk+b7iRVnjJHTSDUKqvw3C5pAgdCR7Inn7Z7cxsDM\n6X+FcdwS3l5bN3CxXvKBDk8ZSeUVFgIrpclvlme1g7ZY9dhWAhYb90Uji5SUpNfn\n9LZEvb+iI9uIrvoi3ZdsEuWU\n-----END PRIVATE KEY-----\n",
+  "client_email": "calmitychatbot@calmitybot-uhln.iam.gserviceaccount.com",
+  "client_id": "116466931565357911922",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calmitychatbot%40calmitybot-uhln.iam.gserviceaccount.com"
+}

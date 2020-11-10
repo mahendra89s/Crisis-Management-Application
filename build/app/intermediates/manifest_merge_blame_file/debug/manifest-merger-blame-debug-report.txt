@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lucifer.calmity"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:9:5-66
+14-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:10:5-78
+15-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:11:5-80
+16-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:12:5-85
+17-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:12:22-82
+18    <uses-permission android:name="android.permission.READ_SMS" />
+18-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+18-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-64
+19    <uses-permission android:name="android.permission.SEND_SMS" />
+19-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+19-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-64
+20    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+20-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-70
+20-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-67
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-75
+21-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-72
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-72
+22-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-69
+23    <uses-permission android:name="android.permission.READ_PROFILE" />
+23-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71
+23-->[:sms_maintained] D:\Manipal Hackthon\1138-Hack-O-Holics\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-68
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+24-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+25-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+25-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+26    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\75269dfe5d01fec33320563c0594b723\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+27-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\75269dfe5d01fec33320563c0594b723\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+32
+33    <application
+33-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:13:5-53:19
+34        android:name="io.flutter.app.FlutterApplication"
+34-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:14:9-57
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.2.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\51d1d935949ee00722ec77da84be2a70\core-1.2.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:16:9-43
+38        android:label="calmity" >
+38-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:15:9-32
+39        <activity
+39-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:17:9-45:20
+40            android:name="com.lucifer.calmity.MainActivity"
+40-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:18:13-41
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+41-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:21:13-163
+42            android:hardwareAccelerated="true"
+42-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:22:13-47
+43            android:launchMode="singleTop"
+43-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:19:13-43
+44            android:theme="@style/LaunchTheme"
+44-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:20:13-47
+45            android:windowSoftInputMode="adjustResize" >
+45-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:23:13-55
+46
+47            <!--
+48                 Specifies an Android theme to apply to this Activity as soon as
+49                 the Android process has started. This theme is visible to the user
+50                 while the Flutter UI initializes. After that, this theme continues
+51                 to determine the Window background behind the Flutter UI.
+52            -->
+53            <meta-data
+53-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:28:13-31:17
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:29:15-70
+55                android:resource="@style/NormalTheme" />
+55-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:30:15-52
+56            <!--
+57                 Displays an Android View that continues showing the launch screen
+58                 Drawable until Flutter paints its first frame, then this splash
+59                 screen fades out. A splash screen is useful to avoid any visual
+60                 gap between the end of Android's launch screen and the painting of
+61                 Flutter's first frame.
+62            -->
+63            <meta-data
+63-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:37:13-40:17
+64                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+64-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:38:15-79
+65                android:resource="@drawable/launch_background" />
+65-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:39:15-61
+66
+67            <intent-filter>
+67-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:41:13-44:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:42:17-68
+68-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:42:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:43:17-76
+70-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:43:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:48:9-50:33
+78            android:name="flutterEmbedding"
+78-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:49:13-44
+79            android:value="2" />
+79-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:50:13-30
+80        <meta-data
+80-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:51:9-52:73
+81            android:name="com.google.android.geo.API_KEY"
+81-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:51:20-65
+82            android:value="AIzaSyDZq2B9VPb6IH8XfvrO0fIv198YEFP28JI" />
+82-->D:\Manipal Hackthon\1138-Hack-O-Holics\android\app\src\main\AndroidManifest.xml:52:16-71
+83
+84        <provider
+84-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+85            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+85-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+86            android:authorities="com.lucifer.calmity.flutter.image_provider"
+86-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+87            android:exported="false"
+87-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+88            android:grantUriPermissions="true" >
+88-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+89            <meta-data
+89-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+91                android:resource="@xml/flutter_image_picker_file_paths" />
+91-->[:image_picker] D:\Manipal Hackthon\1138-Hack-O-Holics\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+92        </provider>
+93
+94        <service
+94-->[:cloud_firestore] D:\Manipal Hackthon\1138-Hack-O-Holics\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[:cloud_firestore] D:\Manipal Hackthon\1138-Hack-O-Holics\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\7f3284e1909b32b82b3eebf2259a18c4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\75269dfe5d01fec33320563c0594b723\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+98            <meta-data
+98-->[:cloud_firestore] D:\Manipal Hackthon\1138-Hack-O-Holics\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+99-->[:cloud_firestore] D:\Manipal Hackthon\1138-Hack-O-Holics\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:cloud_firestore] D:\Manipal Hackthon\1138-Hack-O-Holics\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+101            <meta-data
+101-->[:firebase_auth] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+102-->[:firebase_auth] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_auth] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[:firebase_storage] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+105-->[:firebase_storage] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_storage] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[:firebase_core] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+108-->[:firebase_core] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_core] D:\Manipal Hackthon\1138-Hack-O-Holics\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\75269dfe5d01fec33320563c0594b723\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+111                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+111-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\75269dfe5d01fec33320563c0594b723\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\75269dfe5d01fec33320563c0594b723\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+114                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+114-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8bff4996427736b032be8d689fe7da7b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+117                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+117-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8bff4996427736b032be8d689fe7da7b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8bff4996427736b032be8d689fe7da7b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+119        </service>
+120
+121        <activity
+121-->[:url_launcher] D:\Manipal Hackthon\1138-Hack-O-Holics\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+122            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+122-->[:url_launcher] D:\Manipal Hackthon\1138-Hack-O-Holics\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+123            android:exported="false"
+123-->[:url_launcher] D:\Manipal Hackthon\1138-Hack-O-Holics\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+124            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+124-->[:url_launcher] D:\Manipal Hackthon\1138-Hack-O-Holics\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+125        <activity
+125-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+126            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+126-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+127            android:excludeFromRecents="true"
+127-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+128            android:exported="true"
+128-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+129            android:launchMode="singleTask"
+129-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+130            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+130-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+131-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\05ce105d96578c7cbf808642c08909b7\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+132        <uses-library
+132-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+133            android:name="org.apache.http.legacy"
+133-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+134            android:required="false" />
+134-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\37175d39ce4fdcc81252993e1c072f7c\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+135
+136        <activity
+136-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8579fc6adf0794193ceab2327387e370\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8579fc6adf0794193ceab2327387e370\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8579fc6adf0794193ceab2327387e370\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\8579fc6adf0794193ceab2327387e370\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\7f3284e1909b32b82b3eebf2259a18c4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\7f3284e1909b32b82b3eebf2259a18c4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+143            android:authorities="com.lucifer.calmity.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\7f3284e1909b32b82b3eebf2259a18c4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+144            android:exported="false"
+144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\7f3284e1909b32b82b3eebf2259a18c4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+145            android:initOrder="100" />
+145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\7f3284e1909b32b82b3eebf2259a18c4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+146
+147        <meta-data
+147-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\b11e467f1648148d500bb996fe12df02\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+148            android:name="com.google.android.gms.version"
+148-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\b11e467f1648148d500bb996fe12df02\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+149            android:value="@integer/google_play_services_version" />
+149-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Sutar\.gradle\caches\transforms-2\files-2.1\b11e467f1648148d500bb996fe12df02\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+150    </application>
+151
+152</manifest>
